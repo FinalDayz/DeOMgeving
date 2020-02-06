@@ -4,7 +4,6 @@ import {Router} from '@angular/router';
 import {UserService} from '../../shared/user.service';
 import {SnackbarService} from '../../../shared/services/snackbar.service';
 
-declare var particlesJS: any;
 
 @Component({
   selector: 'app-user-login',
@@ -28,9 +27,7 @@ export class UserLoginComponent implements OnInit{
     if(this.userService.isUserLoggedIn()) {
       this.router.navigate(['/home']);
     }
-    particlesJS.load('particles-js', 'assets/particles/particlesjs-config.json', function() {
-      console.log('callback - particles.js config loaded');
-    });
+
   }
 
   onLogin() {

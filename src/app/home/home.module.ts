@@ -13,6 +13,7 @@ import {UserComponent} from './components/user-management/user/user.component';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {VasteDienstenComponent} from './components/vaste-diensten/vaste-diensten.component';
+import {OverzichtExporterenComponent} from './components/overzicht-exporteren/overzicht-exporteren.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import {VasteDienstenComponent} from './components/vaste-diensten/vaste-diensten
     UserComponent,
     UpdateHistoryComponent,
     UpdateMessageComponent,
-    VasteDienstenComponent
+    VasteDienstenComponent,
+    OverzichtExporterenComponent
   ],
   imports: [
     CommonModule,

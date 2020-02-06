@@ -4,6 +4,8 @@ import {UserLoginComponent} from './user-login.component';
 import {UserModule} from '../../user.module';
 import {HomeModule} from '../../../home/home.module';
 
+declare var particlesJS: any;
+
 describe('UserLoginComponent', () => {
   let component: UserLoginComponent;
   let fixture: ComponentFixture<UserLoginComponent>;

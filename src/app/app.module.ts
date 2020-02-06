@@ -8,14 +8,12 @@ import {AppRoutingModule} from './app-routing.modules';
 import {HomeModule} from './home/home.module';
 import {HTTP_INTERCEPTORS} from '@angular/common/http';
 import {AuthInterceptor} from './auth.interceptor';
-import { OverzichtExporterenComponent } from './home/components/overzicht-exporteren/overzicht-exporteren.component';
 import {MatDatepickerModule} from '@angular/material';
 import {ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    OverzichtExporterenComponent,
   ],
   imports: [
     BrowserModule,
